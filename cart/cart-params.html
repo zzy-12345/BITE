@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Cart</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Sublime project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+	<link href="static/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="static/css/cart.css">
+	<link rel="stylesheet" type="text/css" href="static/css/cart_responsive.css">
+</head>
+
+<body>
+
+	<div class="super_container">
+
+		<!-- Header -->
+
+		<header class="header">
+			<div class="header_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="header_content d-flex flex-row align-items-center justify-content-start">
+								<div class="logo"><a href="#">BITE_</a></div>
+								<nav class="main_nav">
+									<ul>
+										<li class="hassubs active">
+											<a href="index.html">Home</a>
+											<ul>
+												<li><a href="categories.html">Categories</a></li>
+												<li><a href="product.html">Product</a></li>
+												<li><a href="">Cart</a></li>
+												<li><a href="checkout-gpt.html">Check out</a></li>
+												<li><a href="History.html">Purchase History</a></li>
+												<li><a href="contact.html">Contact</a></li>
+												
+											</ul>
+										</li>
+										<li class="hassubs">
+											<a href="categories.html">Categories</a>
+											<ul>
+												<li><a href="categories.html">Category</a></li>
+											</ul>
+										</li>
+										<li><a href="History.html">Purchase History</a></li>
+										<li><a href="contact.html">Contact</a></li>
+										
+									</ul>
+								</nav>
+								<div class="header_extra ml-auto">
+									<div class="shopping_cart">
+										<a href="">
+
+											<div>Cart <span>(0)</span></div>
+										</a>
+									</div>
+									<div class="search">
+										<div class="search_icon">
+
+										</div>
+									</div>
+									<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Search Panel -->
+			<div class="search_panel trans_300">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="search_panel_content d-flex flex-row align-items-center justify-content-end">
+								<form action="#">
+									<input type="text" class="search_input" placeholder="Search" required="required">
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Social -->
+			<div class="header_social">
+				<ul>
+					<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</header>
+
+		<!-- Menu -->
+
+		<div class="menu menu_mm trans_300">
+			<div class="menu_container menu_mm">
+				<div class="page_menu_content">
+
+					<div class="page_menu_search menu_mm">
+						<form action="#">
+							<input type="search" required="required" class="page_menu_search_input menu_mm"
+								placeholder="Search for products...">
+						</form>
+					</div>
+					<ul class="page_menu_nav menu_mm">
+						<li class="page_menu_item has-children menu_mm">
+							<a href="index.html">Home<i class="fa fa-angle-down"></i></a>
+							<ul class="page_menu_selection menu_mm">
+								<li class="page_menu_item menu_mm"><a href="categories.html">Categories<i
+											class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="product.html">Product<i
+											class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="">Cart<i class="fa fa-angle-down"></i></a>
+								</li>
+								<li class="page_menu_item menu_mm"><a href="checkout-gpt.html">Checkout<i
+											class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="contact.html">Contact<i
+											class="fa fa-angle-down"></i></a></li>
+							</ul>
+						</li>
+						<li class="page_menu_item has-children menu_mm">
+							<a href="categories.html">Categories<i class="fa fa-angle-down"></i></a>
+							<ul class="page_menu_selection menu_mm">
+								<li class="page_menu_item menu_mm"><a href="categories.html">Category<i
+											class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="categories.html">Category<i
+											class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="categories.html">Category<i
+											class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="categories.html">Category<i
+											class="fa fa-angle-down"></i></a></li>
+							</ul>
+						</li>
+						<li class="page_menu_item menu_mm"><a href="contact.html">Contact<i
+									class="fa fa-angle-down"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
+
+			<div class="menu_social">
+				<ul>
+					<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i the="fa fa-twitter" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Home -->
+
+		<div class="home">
+			<div class="home_container">
+				<div class="home_background" style="background-image:url(static/image/cart.jpg)"></div>
+				<div class="home_content_container">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="home_content">
+									<div class="breadcrumbs">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="categories.html">Demo</a></li>
+											<li>Shopping Cart</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Cart Info -->
+
+		<div class="cart_info">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<!-- Column Titles -->
+						<div class="cart_info_columns clearfix">
+							<div class="cart_info_col cart_info_col_product">Product</div>
+							<div class="cart_info_col cart_info_col_seller">Seller</div>
+							<div class="cart_info_col cart_info_col_price">Price</div>
+							<div class="cart_info_col cart_info_col_quantity">Quantity</div>
+							<div class="cart_info_col cart_info_col_total">Total</div>
+						</div>
+					</div>
+				</div>
+				<div class="row cart_items_row">
+					<div class="col">
+
+						<!-- Cart Item -->
+						<div
+							class="cart_item d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
+							<!-- Name -->
+							<div class="cart_item_product d-flex flex-row align-items-center justify-content-start">
+								<div class="cart_item_image">
+									<div><img src="static/picture/cart_1.jpg" alt=""></div>
+								</div>
+								<div class="cart_item_name_container">
+									<div class="cart_item_name">iPhone 15 Pro Natural Titanium</div>
+									<!-- <div class="cart_item_edit"><a href="#">Edit Product</a></div> -->
+								</div>
+							</div>
+							<!-- Seller -->
+							<div class="cart_item_seller">Apple</div>
+							<!-- Price -->
+							<div class="cart_item_price">$1.00</div>
+							<!-- Quantity -->
+							<div class="cart_item_quantity">
+								<div class="product_quantity_container">
+									<div class="product_quantity clearfix">
+										<!-- <span>Qty</span> -->
+										<input id="quantity_input" type="text" pattern="[0-9]*" value="1">
+										<div class="quantity_buttons">
+											<div id="quantity_inc_button" class="quantity_inc quantity_control"><i
+													class="fa fa-chevron-up" aria-hidden="true"></i></div>
+											<div id="quantity_dec_button" class="quantity_dec quantity_control"><i
+													class="fa fa-chevron-down" aria-hidden="true"></i></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Total -->
+							<!-- <div class="cart_item_total">$1.00</div> -->
+							<div id="total" class="cart_item_total">$1.00</div>
+
+
+
+						</div>
+
+					</div>
+				</div>
+				<div class="row row_cart_buttons">
+					<div class="col">
+						<div
+							class="cart_buttons d-flex flex-lg-row flex-column align-items-start justify-content-start">
+							<div class="cart_buttons_right ml-lg-auto">
+								<div class="button clear_cart_button"><a href="#" style="color: #d1fdf6;">Clear cart</a>
+								</div>
+								<div class="button update_cart_button"><a href="#" style="color: #d1fdf6;">Update
+										cart</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row row_extra">
+
+					<!-- Coupon Code -->
+
+					<div class="coupon_cart_container">
+						<div class="coupon_section">
+							<!-- Coupon code HTML goes here -->
+							<div class="section_title">Coupon code</div>
+							<div class="section_subtitle">Enter your coupon code</div>
+							<div class="coupon_form_container">
+								<form action="#" id="coupon_form" class="coupon_form">
+									<input type="text" class="coupon_input" required="required">
+									<button class="button coupon_button"><span>Apply</span></button>
+								</form>
+							</div>
+						</div>
+						<div class="cart_total_section">
+							<!-- Cart total HTML goes here -->
+							<div class="col-lg-6 offset-lg-2">
+								<div class="cart_total">
+									<div class="section_title">Cart total</div>
+									<div class="section_subtitle">Final info</div>
+									<div class="cart_total_container">
+										<div class="total_and_checkout">
+											<div class="cart_total_title">Total</div>
+											<div id="total_value" class="cart_total_value">$1.00</div>
+											<!-- <a id="checkout_link" href="checkout-gpt.html" class="checkout_button">Checkout</a> -->
+											<!-- <button id="checkout_link" href="checkout-gpt.html"class="button checkout_button"><span>Checkout</span></button> -->
+											<a id="checkout_link" href="checkout.html" class="button checkout_button">
+												<span>Checkout</span>
+											</a>
+											
+										</div>
+										<!-- <div class="total-amount"> -->
+											<!-- <ul>
+
+												<li class="d-flex flex-row align-items-center justify-content-start">
+													<div class="cart_total_title">Total</div>
+													<div id="total_value" class="cart_total_value ml-auto">$1.00</div>
+												</li>
+											</ul>
+										</div>
+
+										<div class="button checkout_button">
+											<a id="checkout_link" href="checkout-gpt.html">Proceed to checkout</a>
+
+										</div> -->
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- 					
+						<div class="coupon">
+							<div class="section_title" >Coupon code</div>
+							<div class="section_subtitle">Enter your coupon code</div>
+							<div class="coupon_form_container">
+								<form action="#" id="coupon_form" class="coupon_form">
+									<input type="text" class="coupon_input" required="required" >
+									<button class="button coupon_button"><span>Apply</span></button>
+								</form>
+							</div>
+						</div>
+					</div> -->
+
+						<!-- <div class="col-lg-6 offset-lg-2">
+						<div class="cart_total">
+							<div class="section_title">Cart total</div>
+							<div class="section_subtitle">Final info</div>
+							<div class="cart_total_container">
+								<ul>
+
+
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="cart_total_title">Total</div>
+										<div id="total_value" class="cart_total_value ml-auto">$1.00</div>
+									</li>
+								</ul>
+							</div>
+							<div class="button checkout_button">
+								<a id="checkout_link" href="checkout.html">Proceed to checkout</a>
+
+							</div>
+
+						</div>
+					</div> -->
+					</div>
+				</div>
+
+				<!-- Footer -->
+
+				<div class="footer_overlay"></div>
+				<footer class="footer">
+					<div class="footer_background" style="background-image:url(static/image/footer.jpg)"></div>
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div
+									class="footer_content d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+									<div class="footer_logo"><a href="#">BITE_</a></div>
+									<div class="copyright ml-auto mr-auto">Copyright &copy; 2024. BUY IT TO EARN.</div>
+									<div class="footer_social ml-lg-auto">
+										<ul>
+											<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i the="fa fa-instagram" aria-hidden="true"></i></a></li>
+											<li><a href="#">
+													<i="fa fa-facebook" aria-hidden="true"></i>
+												</a></li>
+											<li><a href="#">
+													<i="fa fa-twitter" aria-hidden="true"></i>
+												</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+
+			<script src="static/js/jquery-3.2.1.min.js"></script>
+			<script src="static/js/popper.js"></script>
+			<script src="static/js/bootstrap.min.js"></script>
+			<script src="static/js/TweenMax.min.js"></script>
+			<script src="static/js/TimelineMax.min.js"></script>
+			<script src="static/js/ScrollMagic.min.js"></script>
+			<script src="static/js/animation.gsap.min.js"></script>
+			<script src="static/js/ScrollToPlugin.min.js"></script>
+			<script src="static/js/easing.js"></script>
+			<script src="static/js/parallax.min.js"></script>
+			<script src="static/js/cart.js"></script>
+
+			<script>
+				document.addEventListener('DOMContentLoaded', function () {
+					const quantityInput = document.getElementById('quantity_input');
+					const incButton = document.getElementById('quantity_inc_button');
+					const decButton = document.getElementById('quantity_dec_button');
+					const priceElement = document.querySelector('.cart_item_price');
+					const subtotalElement = document.getElementById('subtotal_value');
+					const totalElement = document.getElementById('total_value');
+					const deliveryOptions = document.querySelectorAll('.delivery_radio');
+					const checkoutLink = document.getElementById('checkout_link');
+
+
+					// Extract price from the DOM
+					const unitPrice = parseFloat(priceElement.textContent.replace('$', ''));
+
+					function updateTotal() {
+						const quantity = parseInt(quantityInput.value, 10);
+						const subtotal = unitPrice * quantity;
+						const total = (subtotal).toFixed(2);
+
+						subtotalElement.textContent = '$' + subtotal.toFixed(2);
+						totalElement.textContent = '$' + total;
+					}
+
+					incButton.addEventListener('click', function () {
+						quantityInput.value = parseInt(quantityInput.value, 10) + 1;
+						updateTotal();
+					});
+
+					decButton.addEventListener('click', function () {
+						const currentQuantity = parseInt(quantityInput.value, 10);
+						if (currentQuantity > 0) {
+							quantityInput.value = currentQuantity - 1;
+							updateTotal();
+						}
+					});
+
+					quantityInput.addEventListener('change', function () {
+						let newValue = parseInt(quantityInput.value, 10);
+						if (isNaN(newValue) || newValue < 0) {
+							quantityInput.value = 0;
+						}
+						updateTotal();
+					});
+
+					deliveryOptions.forEach(option => {
+						option.addEventListener('change', updateTotal);
+					});
+					const updateCheckoutLink = () => {
+						const totalValueText = totalElement.textContent.replace(/[^\d.]/g, '');
+						const totalValue = parseFloat(totalValueText);
+						const subtotalValueText = subtotalElement.textContent.replace(/[^\d.]/g, '');
+						const subtotalValue = parseFloat(subtotalValueText);
+						const productName = document.querySelector('.cart_item_name').textContent;
+
+						checkoutLink.href = `checkout-gpt.html?total_value=${totalValue.toFixed(2)}&subtotal_value=${subtotalValue}&product_name=${encodeURIComponent(productName)}`;
+					};
+
+					// Example event handlers
+					incButton?.addEventListener('click', updateCheckoutLink);
+					decButton?.addEventListener('click', updateCheckoutLink);
+
+					document.querySelectorAll('.delivery_radio').forEach(radio => {
+						radio?.addEventListener('change', updateCheckoutLink);
+					});
+
+					// Call it initially to set the link
+					updateCheckoutLink();
+
+					// Initial total update
+					updateTotal();
+				});
+
+
+			</script>
+
+</body>
+
+</html>
